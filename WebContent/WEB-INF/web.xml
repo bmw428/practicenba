@@ -5,6 +5,28 @@
 
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
+	  <jsp-config>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+      <taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>
+      <taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/fmt</taglib-uri>
+      <taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/functions</taglib-uri>
+      <taglib-location>/WEB-INF/tld/fn.tld</taglib-location>
+    </taglib>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/xml</taglib-uri>
+      <taglib-location>/WEB-INF/tld/x.tld</taglib-location>
+    </taglib>
+  </jsp-config>
 
 	<!-- Processes application requests -->
 	<servlet>
